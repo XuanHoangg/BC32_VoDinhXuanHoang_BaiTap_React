@@ -1,8 +1,11 @@
 
-
+import BaiTapThucHanhLayout from "./BaiTapLayoutComponent/BaiTapThucHanhLayout";
 function App() {
   return (
-    <div></div>
+    <>
+      {/* Bài tập 1 */}
+      <BaiTapThucHanhLayout />
+    </>
   );
 }
 
