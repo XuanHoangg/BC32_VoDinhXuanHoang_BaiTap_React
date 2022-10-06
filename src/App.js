@@ -1,8 +1,10 @@
-
+import Baitap2 from "./Baitap2/Baitap2";
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Baitap2 />
+    </div>
   );
 }
 
