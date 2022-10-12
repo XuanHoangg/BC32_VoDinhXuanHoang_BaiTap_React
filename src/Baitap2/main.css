@@ -1,0 +1,50 @@
+body {
+    background-image: url(../glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.text {
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    color: white;
+}
+
+.card {
+    position: relative;
+    border: none !important;
+}
+
+.model {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+
+.title {
+    background-color: #f5a9779c;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.img {
+    position: absolute;
+    top: 105px;
+    left: 78px;
+}
+
+.desc {
+    color: white
+}
+
+.name {
+    color: blue;
+}
