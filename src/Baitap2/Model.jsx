@@ -5,7 +5,7 @@ const Model = ({ glasses }) => {
         <div className='d-flex container justify-content-around mt-5'>
             <div >
                 <div className="card img-fluid" style={{ width: 330 }}>
-                    <img className="card-img-top" src={require("../glassesImage/model.jpg")} alt="Card image" style={{ width: '100%' }} />
+                    <img className="card-img-top" src={require("./model.jpg")} alt="Card image" style={{ width: '100%' }} />
                     <div className="card-img-overlay ">
                         {
                             glasses.map((item) => (
@@ -25,7 +25,7 @@ const Model = ({ glasses }) => {
             </div>
             <div>
                 <div className="card img-fluid" style={{ width: 330 }}>
-                    <img className="card-img-top" src={require("../glassesImage/model.jpg")} alt="Card image" style={{ width: '100%' }} />
+                    <img className="card-img-top" src={require("./model.jpg")} alt="Card image" style={{ width: '100%' }} />
                 </div>
             </div>
 
