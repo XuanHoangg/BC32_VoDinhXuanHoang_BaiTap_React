@@ -1,8 +1,10 @@
 
-
+import Baitap3 from "./Baitap3/Baitap3";
 function App() {
   return (
-    <div></div>
+    <div>
+      <Baitap3 />
+    </div>
   );
 }
 
