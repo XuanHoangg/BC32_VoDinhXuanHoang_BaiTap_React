@@ -1,9 +1,9 @@
 
-import Baitap3 from "./Baitap3/Baitap3";
+import ShoesStore from './Baitap3/ShoesStore.jsx';
 function App() {
   return (
     <div>
-      <Baitap3 />
+      <ShoesStore />
     </div>
   );
 }
