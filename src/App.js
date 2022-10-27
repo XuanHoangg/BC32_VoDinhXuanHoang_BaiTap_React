@@ -1,8 +1,11 @@
+import BookTickets from "./Baitap4/BookTickets";
 
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <BookTickets />
+    </div>
   );
 }
 
