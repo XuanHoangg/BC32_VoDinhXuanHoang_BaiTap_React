@@ -4,9 +4,12 @@ import cn from 'classnames'
 import { useDispatch, useSelector } from 'react-redux';
 import './Checkout.css'
 const DatVe = () => {
-    const { chiTietPhongVe, danhSachGheDangDat } = useSelector((state) => state.quanLyDatVe);
+    const { chiTietPhongVe, danhSachGheDangDat, dsRong } = useSelector((state) => state.quanLyDatVe);
     const dispatch = useDispatch();
     const total = danhSachGheDangDat.reduce((result, item) => {
+        if (item.daDat === true) {
+            return 0
+        }
         return result + item.gia
     }, 0)
 
@@ -81,12 +84,18 @@ const DatVe = () => {
                             <th>Giá tiền</th>
                         </tr>
                         <tbody>
-                            {danhSachGheDangDat.map((item, index) => (
-                                <tr key={index}>
-                                    <td>{item.soGhe}</td>
-                                    <td>{item.gia} VNĐ</td>
-                                </tr>
-                            ))}
+                            {danhSachGheDangDat.map((item, index) => {
+                                if (item.daDat === true) {
+                                    return dsRong;
+                                }
+                                else {
+                                    return <tr key={index}>
+                                        <td>{item.soGhe}</td>
+                                        <td>{item.gia} VNĐ</td>
+                                    </tr>
+                                }
+
+                            })}
                         </tbody>
                     </table>
                 </div>

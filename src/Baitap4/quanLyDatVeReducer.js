@@ -3,6 +3,8 @@ import data from './danhSachGhe.json';
 const initialState = {
     chiTietPhongVe: data,
     danhSachGheDangDat: [],
+    //ds rỗng để in ra màn hình khi đã click đặt vé
+    dsRong: []
 }
 const quanLyDatVeReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -24,9 +26,6 @@ const quanLyDatVeReducer = (state = initialState, action) => {
         case "DAT_VE": {
             action.dsGheDaDat.map((item) => { item.daDat = true })
             const dsGheDD = [...action.dsGheDaDat]
-            //state.danhSachGheDangDat = [...action.dsGheDaDat];
-            console.log(dsGheDD);
-
             return { ...state, danhSachGheDangDat: dsGheDD }
         }
         default:
