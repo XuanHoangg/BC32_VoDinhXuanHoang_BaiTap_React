@@ -1,10 +1,10 @@
-import BookTickets from "./Baitap4/BookTickets";
+import Home from "./Baitap4/Home";
 
 
 function App() {
   return (
     <div>
-      <BookTickets />
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,136 @@
+// @font-face {
+//     font-family: 'fontGame';
+//     src: url('../font/Pony.ttf');
+// }
+
+.bookingMovie {
+    font-family: 'fontGame';
+}
+
+
+.ghe {
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 12px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.rowNumber {
+    /* font-size: 25px; */
+    width: 45px;
+    height: 35px;
+    background: none;
+    border: none;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: yellow;
+
+}
+
+.firstChar {
+    color: yellow;
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+
+.screen {
+    border-bottom: 50px solid rgb(255, 159, 95);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 100;
+    width: 80%;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange;
+
+    background: orange;
+    color: #000;
+
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 3px solid rgb(109, 238, 109);
+    color: #000;
+
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+}
+
+.background {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.trapezoid {
+    border-bottom: 80px solid black;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    max-width: 80%;
+    opacity: 0.5;
+    margin: 0 auto;
+
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.manHinh {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.check {
+    margin-right: 0 !important;
+}
+
+.x {
+    margin: 0 !important;
+}
+
+.char {
+    font-size: 20px;
+    color: aqua;
+}
+
+.pay {
+    border: 3px solid orange;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.total {
+    position: absolute;
+    right: 0;
+}
